@@ -1,6 +1,6 @@
 # Advent of Code 2025
 
-My solutions for [AOC 2025](https://adventofcode.com/)
+My solutions for [AOC 2025](https://adventofcode.com/2025)
 
 ## How to run
 

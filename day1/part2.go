@@ -29,15 +29,22 @@ func SolvePart2() {
 			}
 		case 'L':
 			if clicks > currentDialPos {
+				if currentDialPos != minDialPos {
+					zeroCount++
+				}
 				currentDialPos = maxDialPos - (clicks - currentDialPos - 1)
-				zeroCount++
 			} else {
 				currentDialPos -= clicks
+
+				if currentDialPos == minDialPos {
+					zeroCount++
+				}
 			}
 
 			if currentDialPos > maxDialPos {
 				currentDialPos = (currentDialPos % maxDialPos) - 1
 			}
+
 		}
 	}
 

@@ -6,6 +6,7 @@ import (
 	"strconv"
 
 	"github.com/MarkyMan4/advent-of-code-2025/day1"
+	"github.com/MarkyMan4/advent-of-code-2025/day2"
 )
 
 func main() {
@@ -39,6 +40,13 @@ func solveDayAndPart(day int, part int) {
 			day1.SolvePart1()
 		case 2:
 			day1.SolvePart2()
+		}
+	case 2:
+		switch part {
+		case 1:
+			day2.SolvePart1()
+		case 2:
+			day2.SolvePart2()
 		}
 	}
 }

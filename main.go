@@ -7,6 +7,7 @@ import (
 
 	"github.com/MarkyMan4/advent-of-code-2025/day1"
 	"github.com/MarkyMan4/advent-of-code-2025/day2"
+	"github.com/MarkyMan4/advent-of-code-2025/day3"
 )
 
 func main() {
@@ -35,18 +36,22 @@ func main() {
 func solveDayAndPart(day int, part int) {
 	switch day {
 	case 1:
-		switch part {
-		case 1:
+		if part == 1 {
 			day1.SolvePart1()
-		case 2:
+		} else if part == 2 {
 			day1.SolvePart2()
 		}
 	case 2:
-		switch part {
-		case 1:
+		if part == 1 {
 			day2.SolvePart1()
-		case 2:
+		} else if part == 2 {
 			day2.SolvePart2()
+		}
+	case 3:
+		if part == 1 {
+			day3.SolvePart1()
+		} else if part == 2 {
+			day3.SolvePart2()
 		}
 	}
 }

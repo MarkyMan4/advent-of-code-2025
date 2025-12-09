@@ -25,4 +25,4 @@ go.work.sum
 .env
 
 # executable
-aoc2025solver
+aoc25solver

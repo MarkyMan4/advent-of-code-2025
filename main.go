@@ -8,6 +8,7 @@ import (
 	"github.com/MarkyMan4/advent-of-code-2025/day1"
 	"github.com/MarkyMan4/advent-of-code-2025/day2"
 	"github.com/MarkyMan4/advent-of-code-2025/day3"
+	"github.com/MarkyMan4/advent-of-code-2025/day4"
 )
 
 func main() {
@@ -52,6 +53,12 @@ func solveDayAndPart(day int, part int) {
 			day3.SolvePart1()
 		} else if part == 2 {
 			day3.SolvePart2()
+		}
+	case 4:
+		if part == 1 {
+			day4.SolvePart1()
+		} else if part == 2 {
+			day4.SolvePart2()
 		}
 	}
 }

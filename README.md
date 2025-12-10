@@ -20,7 +20,7 @@ I'll add an ornament to my tree for each day I complete:
            / \
           /   \
          /     \
-        /       \
+        /    %  \
        /  0      \
       /        &  \
      /     $       \
